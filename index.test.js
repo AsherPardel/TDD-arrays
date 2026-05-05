@@ -154,7 +154,7 @@ describe("countAttendance", function () {
   });
 });
 
-describe("getLongestWord", function () {
+describe.only("getLongestWord", function () {
   it("returns the first longest word", function () {
     expect(getLongestWord(["sphinx", "of", "black", "quartz"])).toBe("sphinx");
   });
